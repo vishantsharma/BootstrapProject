@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Movie Central</title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="includes/css/font-awesome.min.css">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	
+	<!-- Various Google Fonts used for styling -->
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+	
+	
+	<!--------------------- Navbar --------------------------- -->
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top navbar-inverse">
+			<div class="container-fluid">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+
+				<a class="navbar-brand" href="/"> <img src="img/headerlogo.png" alt="Logo"> </a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="">Home</a>
+
+						</li>
+
+					<!-- First Dropdown in the Navbar -->
+
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">Movies <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">Upcoming</a>
+								</li>
+
+								<li>
+									<a href="">Top 250</a>
+								</li>
+								<li>
+									<a href="">Showtime & Tickets</a>
+								</li>
+
+								<li class="divider"> </li>
+								<li class="dropdown-header">More...</li>
+								<li>
+									<a href="">In Theatres</a>
+								</li>
+								<li>
+									<a href="">Latest Trailers</a>
+								</li>    
+							</ul>
+
+
+						</li>
+
+						<!-- Second Dropdown in the Navbar -->
+
+						<li class="dropdown">
+
+							<a href="" class="dropdown-toggle" data-toggle="dropdown"> Celebs <strong class="caret"></strong> </a>
+							<ul class="dropdown-menu">
+								<li>
+
+									<a href="">Born Today</a>
+								</li>
+								<li> 
+									<a href="">Most Popular Celebs</a>
+								</li>
+								<li>
+									<a href="">Hall Of Fame</a>
+
+								</li>
+
+							</ul>
+						</li>
+
+						<!-- Third Dropdown in the Navbar -->
+
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown"> News <strong class="caret"></strong> </a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">Latest News</a>
+								</li>
+								<li>
+									<a href="">Movie News</a>
+								</li>
+								<li>
+									<a href="">Celeb News</a>
+								</li>
+							</ul>
+						</li>
+
+					</ul>
+
+
+					<!-- Search Bar in Navbar -->
+
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search Movie Central..."  id="searchinput">
+
+						<button type="submit" class="btn btn-default"> <span class="glyphicon glyphicon-search"> </span></button>
+
+					</form>
+					
+					<!-- Help Link in Navbar -->
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown"> Help</a>
+						</li>
+
+					</ul>
+					
+					<!-- Contact Link in Navbar -->
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown"> Contact Us</a>
+						</li>
+
+					</ul>
+
+					
+					<!-- User Account in Navbar -->
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown"> <span class="glyphicon glyphicon-user"> Vishant Sharma <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href=""> <span class="glyphicon glyphicon-wrench"> Settings</span></a>
+
+								</li>
+								<li>
+									<a href=""> <span class="glyphicon glyphicon-refresh"> Update Profile</a>
+								</li>
+								<li>
+									<a href="">About Us</a>
+								</li>
+								<li class="divider"> </li>
+								<li>
+									<a href=""> <span class="glyphicon glyphicon-off"> Sign Out</a>
+								</li>
+
+							</ul>
+
+						</li>
+
+					</ul>
+				</ul>
+
+
+
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+                <!--------------------- Carousel ---------------------- --> 
+<div class="carousel slide" id="myCarousel">
+
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+		<li data-slide-to="1" data-target="#myCarousel"></li>
+		<li data-slide-to="2" data-target="#myCarousel"></li>
+	</ol>
+
+	<div class="carousel-inner">
+		<div class="item active" id="slide1">
+
+			<div class="carousel-caption firstslidercaption">
+				<h2 class="carouselHeader">ASSASSIN'S CREED  </h2>
+				<h3 class="carouselHeader"> In Theatres December  </h3>
+			</div>
+		</div>
+
+		<div class="item" id="slide2">
+
+			<div class="carousel-caption secondslidercaption">
+				<h2 class="carouselHeader"> JUSTICE LEAGUE </h2>
+				<h3 class="carouselHeader"> Coming Soon.... </h3>
+			</div>
+		</div>
+		<div class="item" id="slide3">
+
+			<div class="carousel-caption thirdslidercaption">
+				<h2 class="carouselHeader"> DOCTOR STRANGE </h2>
+				<h3 class="carouselHeader"> Coming in theatres this fall.... </h3>
+			</div>
+		</div>
+
+	</div>
+	<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+
+	<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+</div>
+
+
+<div class="container">
+	<div class="row" id="bigCallout">
+		<div class="col-12">
+			<div class="well">
+				<div class="page-header">
+					<h2 class="callOutHeader"> Now You See Me 2 <small> Did You Know? </small> </h2>
+				</div>
+				<p class="lead">
+					This is the sixth time Morgan Freeman and Michael Caine appear in the same project. They previously starred together in Freedom: A History of Us (2003), Batman Begins (2005), The Dark Knight (2008), The Dark Knight Rises (2012) and Now You See Me (2013). They are set to star together a seventh time in Going in Style (2017).</p>
+
+
+					<a href="" class="btn btn-large btn-primary">Read More</a>
+					<a href="" class="btn btn-large btn-link">See more trivia</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="row" id="featuresHeading">
+			<div class="col-12">
+				<h2 class="featuresHeader">Opening This Week</h2>
+
+				<p class="lead"> Some of the latest releases are listed below : 
+				</p>
+			</div>
+		</div>
+
+		<div class="row" id="features">
+			<div class="col-sm-4" feature>
+				<div class="panel">
+					<div class="panel-heading">
+
+						<h2 class="panel-title"> Max Steel </h2>
+					</div>
+					<div  class="maxPara">
+						<img src="img/featureimg1.jpg" alt = "Image Not Found" class="img-circle img-responsive">
+						<p><b> Max Steel is an in-depth "origin" story. The plot chronicles the adventures of teenage Max McGrath and alien companion Steel, who are symbiotically bonded and utilize a unique form of esoteric energy to become the turbo-charged superhero Max Steel. As these two unlikely friends struggle to accept their oddly connected fates, they begin to uncover unimaginable secrets, working together to find the truth, and fighting the mysterious forces threatening their world.
+						</b></p>
+
+						<a href="" target="_blank" class="btn btn-warning btn-block">Find Tickets</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4" feature>
+				<div class="panel">
+					<div class="panel-heading">
+
+						<h2 class="panel-title"> The Accountant </h2>
+					</div>
+					<div  class="maxPara">
+						<img src="img/featureimg3.jpg" alt = "Image Not Found" class="img-circle img-responsive">
+						<p><b>Christian Wolff is a mathematics savant with more affinity for numbers than people. Using a small-town CPA office as a cover, he makes his living as a forensic accountant for dangerous criminal organizations. With a Treasury agent (J.K. Simmons) hot on his heels, Christian takes on a state-of-the-art robotics company as a legitimate client. As Wolff gets closer to the truth about a discrepancy that involves millions of dollars, the body count starts to rise. The film premiered in Los Angeles on October 10, 2016.
+						</b></p>
+
+						<a href="" target="_blank" class="btn btn-warning btn-block">Find Tickets</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4" feature>
+				<div class="panel">
+					<div class="panel-heading">
+
+						<h2 class="panel-title"> Kevin Hart: What Now? </h2>
+					</div>
+					<div  class="maxPara">
+						<img src="img/featureimg2.jpg" alt = "Image Not Found" class="img-circle img-responsive">
+						<p><b>On July 16, 2015, Universal Pictures announced that Kevin Hart: What Now?, a stand-up comedy film starring Kevin Hart, will be released theatrically in the United States on October 14, 2016 of his What Now? Tour. The show was filmed live on August 30, 2015 in front of 53,000 people at Philadelphia’s Lincoln Financial Field, with a live dress rehearsal for a small, intimate audience filmed at the stadium the night before on August 29, 2015. The film's teaser trailer was released January 12, 2016.
+						</b></p>
+
+						<a href="" target="_blank" class="btn btn-warning btn-block">Find Tickets</a>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3> Latest News </h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"> <a href="#tab1" data-toggle="tab">Hollywood </a></li>
+						<li> <a href="#tab2" data-toggle="tab"> Movies </a></li>
+						<li> <a href="#tab3" data-toggle="tab"> Celebs </a></li>
+
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+
+							<img src="img/tabimg1.jpg" class="thumbnail pull-left" alt="Tab1 Image1">
+							<p> <b>
+								Jennifer Lopez Talks Working with Ex Marc Anthony on New Music: ‘I Can’t Imagine Doing It Without Him’
+								15 hours ago | PEOPLE.com </b> </p>
+								<p>
+									Jennifer Lopez and Marc Anthony may have decided their marriage wasn’t working out, but their business relationship is as strong as ever.The duo recently announced they were collaborating on a new Spanish-language album, due out in 2017, for which Anthony will produce. </p> 
+									<hr>
+
+
+									<img src="img/tabimg2.jpg" class="thumbnail pull-left" align="Tab1 Image2">
+									<p> <b> 
+										Kim Zolciak-Biermann and Look-Alike Daughter Brielle Land in L.A.
+										1 hours ago | PEOPLE.com </b> </p>
+										<p>
+											Welcome to the City of Angels, Kim Zolciak-Biermann!The reality star was spotted landing at Los Angeles International Airport on Wednesday with husband Kroy and daughter Brielle. Zolciak-Biermann, 38, sported an ab-baring $210 crop top by Alexander Wang which she paired with black skinny jeans and ... </p>
+
+											<hr>
+
+											<br>
+											<img src="img/tabimg3.jpg" class="thumbnail pull-left" align="Tab1 Image3" >
+											<p> <b> 
+												Rob Lowe’s Groomer Explains the Inspiration Behind His New Haircut and ‘Guy-Lights’ </b>
+												<p>
+													If you’ve noticed Rob Lowe‘s lighter, edgier hairstyle lately, we’re here to tell you that your eyes are not playing tricks on you. The 52-year-old actor is sporting a cool new do for his role in Code Black, and we have all of the details straight from his groomer. </p>
+
+												</div>
+
+
+												<!-- Tab 2 -->
+												<div class="tab-pane" id="tab2">
+													<img src="img/tab2img1.jpg" class="thumbnail2 pull-left" alt="Tab2 Image1">
+													<p> <b>
+
+														Paul Verhoeven and Pedro Almodóvar among record 85 foreign language Oscar entrants </b> </p>
+														<p>
+															Films from the Dutch and Spanish veterans included among the 85 submissions for next year’s award, with German comedy Toni Erdmann an early favourite The 85 entrants for next year’s foreign language Oscar have been announced – which beats the previous record of 83, from 2014. </p>
+															<hr>
+
+															<img src="img/tab2img2.jpg" class="thumbnail2 pull-left" alt="Tab2 Image2">
+															<p> <b>
+
+																Busan: ‘Diamond Island’ Team Enter Cambodia’s ‘White Building’ </b> </p>
+																<p>
+																	Busan — The core team behind 2016 Cannes Critics’ Week selection “Diamond Island” were at the Busan Film Festival’s Asian Project Market this week with Khmer-language film “White Building.” "Diamond Island" was budgeted at approx. $60 million. </p>
+																	<hr>
+
+																	<img src="img/tab2img3.jpg" class="thumbnail2 pull-left" alt="Tab2 Image3">
+																	<p> <b>
+
+																		Weak September Dents China’s Box Office Charge </b> </p>
+																		<p>
+																			September showed more of the slowdown that has gripped the Chinese theatrical market since mid-year.
+
+																			Box office of $342 million (RMB2.30 billion) for the month was down 43% compared with August. And it was 33% weaker than September last year, according to data from Ent Group.
+
+																			The latest numbers further dent the prospect of China’s box office overtaking that of North America any time soon. </p>
+
+
+																		</div>
+
+																		<div class="tab-pane" id="tab3">
+																			<img src="img/tab3img1.jpg" class="thumbnail3 pull-left" alt="Tab3 Image1">
+																			<p> <b>
+
+
+																				Drake Leads Soul Train Awards With 12 Nominations, Beats Out Beyonce’s Eight </b>
+																				<p>
+																					Only days after breaking the record for most American Music Award nominations, Drake leads the list of Soul Train nominees. Related: Drake Breaks Michael Jackson’s Record, Snags 13 Ama Nominations The Canadian megastar has snagged nominations for Video of the Year, Album/Mixtape of the Year and Song of the Year, to name a few. </p>
+																					<hr>
+
+																					<img src="img/tab3img2.jpg" class="thumbnail3 pull-left" alt="Tab3 Image2">
+																					<p> <b>
+
+
+																						Celebrities Support Shailene Woodley After Her Arrest at the Dakota Access Pipeline </b>
+																						<p>
+																							Although Shailene Woodley is usually in the press for appearing in blockbusters like Divergent and Snowden, she made headlines for a very different reason on Monday. The actress was arrested while engaging in a peaceful protest against the construction of the Dakota Access Pipeline (Dapl) on the Standing Rock Reservation in Bismarck. </p>
+																							<hr>
+
+																							<img src="img/tab3img3.jpg" class="thumbnail3 pull-left" alt="Tab3 Image3">
+																							<p> <b>
+
+
+																								Corey Feldman Insists He’s Not Back on Drugs – and Has to ‘Stay Strong’ for His Son </b>
+																								<p>
+																									When Corey Feldman took the stage to perform on the Today show last month, he never would have imagined the awful comments that would come his way.
+
+																									On Sept. 16, the actor-turned-musician appeared on the NBC morning show to perform his single “Go 4 It,” but wound up defending his sobriety.
+																								</p>
+
+
+
+
+
+																							</div>
+																						</div>
+																					</div>
+																				</div> <!-- end col-sm-6 -->
+
+																				<div class="col-sm-6">
+																					<h3>Box Office Results</h3>
+																					<p> This week's Box Office results : </p>
+
+																					<div class="list-group">
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">The Girl On The Train </h4>
+
+																							<p class="list-group-item-text"> Weekend: $24.5M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	Miss Peregrine's Home for Peculiar Children</h4>
+																							<p class="list-group-item-text">Weekend: $15.1M </p>
+																						</a>
+
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	Deepwater Horizon </h4>
+																							<p class="list-group-item-text">Weekend: $11.5M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	The Magnificent Seven </h4>
+																							<p class="list-group-item-text">Weekend: $9.0M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	Storks </h4>
+																							<p class="list-group-item-text">Weekend: $8.3M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	The Birth of a Nation </h4>
+																							<p class="list-group-item-text">Weekend: $7.0M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	Middle School: The Worst Years of My Life  </h4>
+																							<p class="list-group-item-text">Weekend: $6.9M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	Sully </h4>
+																							<p class="list-group-item-text">Weekend: $5.0M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	Masterminds </h4>
+																							<p class="list-group-item-text">Weekend: $4.7M </p>
+																						</a>
+
+																						<a href="secondpage.html" class="list-group-item">
+																							<h4 class="list-group-item-heading">	Queen of Katwe </h4>
+																							<p class="list-group-item-text">Weekend: $1.6M </p>
+																						</a>
+																						<a class="pull-right" href="secondpage.html"><h3>See more Box Office results.... <span class="glyphicon glyphicon-share-alt"></span></h3></a>
+
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+
+													<!-- BORN TODAY -->
+													<div class="container">
+														<div class="row borntoday">
+															<h1 class="bornHeader"> Born Today </h1>
+
+															<div class="col-sm-2">
+																<img src="img/borntodayimg1.jpg" alt="Image Not Found">
+																<h4> Sacha Baron Cohen (45) </h4>
+															</div>
+
+															<div class="col-sm-2">
+																<img src="img/borntodayimg2.jpg" alt="Image Not Found">
+																<h4> Kelly Preston (54) </h4>
+															</div>
+
+															<div class="col-sm-2">
+																<img src="img/borntodayimg3.jpg" alt="Image Not Found">
+																<h4> Kate Walsh (49) </h4>
+															</div>
+
+															<div class="col-sm-2">
+																<img src="img/borntodayimg4.jpg" alt="Image Not Found">
+																<h4> Susan Bloomaert (69) </h4>
+															</div>
+
+															<div class="col-sm-2">
+																<img src="img/borntodayimg5.jpg" alt="Image Not Found">
+																<h4> Mia Wasikowska (26) </h4>
+															</div>
+
+															<div class="col-sm-2">
+																<img src="img/borntodayimg6.jpg" alt="Image Not Found">
+																<h4> Ben Whishaw (35) </h4>
+															</div>
+
+
+
+														</div>
+
+													</div>
+
+
+													<!-- FOOTER -->
+
+													<footer>
+														<div class="container">
+															<div class="row">
+
+																<div class="col-sm-3 copyright">
+																	<h6> © 2016 MOVIECENTRAL.COM | Privacy and Cookies | Terms of Service </h6>
+																</div>
+
+																<div class="col-sm-3 followUs">
+																	<h4> Follow Us On </h4>
+																	<div class="fontColor">
+																		<i class="fa fa-twitter" aria-hidden="true"></i>
+																		<i class="fa fa-youtube icon" aria-hidden="true"></i>
+																		<i class="fa fa-instagram icon" aria-hidden="true"></i>
+																		<i class="fa fa-facebook-official icon" aria-hidden="true"></i>
+																	</div>
+																</div>
+
+
+
+																<div class="col-sm-3 company">
+																	<h4 class="companyHeader"> Company </h4>
+																	<div  class="companyList">
+																		<ul>
+
+																			<li> <a class="companyDetails" href="">DISCLAIMER</a>  </li>
+																			<li> <a class="companyDetails" href="">ADVERTISE</a>   </li>
+																			<li><a  class="companyDetails"  href="">CAREERS</a>    </li>
+																			<li><a class="companyDetails"  href="">SITE MAP</a>   </li>
+																			<li><a class="companyDetails" href="">ASSETS</a>    </li>
+
+																		</ul>
+																	</div>
+																</div>
+
+																<div class="col-sm-3">
+																	<h4 class="availableOnHeader"> Available On </h4>
+																	<img class="img-responsive" src="img/apps.png" alt="Image Not Found" />
+																</div>
+
+
+
+															</div>
+														</div>
+
+													</footer>
+													<script src="http://code.jquery.com/jquery.js"></script>
+
+													<!-- If no online access, fallback to our hardcoded version of jQuery -->
+													<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+													<!-- Bootstrap JS -->
+													<script src="bootstrap/js/bootstrap.min.js"></script>
+
+													<!-- Custom JS -->
+													<script src="includes/js/script.js"></script>
+
+												</body>
+												</html>
+

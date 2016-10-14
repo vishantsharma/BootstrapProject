@@ -1,0 +1,342 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body
+{
+   /*background: url("../../img/bodyimg.jpg");*/
+   background-color:#DDE6DA;
+}
+
+
+
+#features
+{
+   text-align: center;
+
+}
+#features img
+{
+   margin:0 0 20px;
+}
+.featuresHeader
+{
+   text-align: center;
+   font-family: 'Luckiest Guy', cursive;
+   /*color: red;*/
+}
+.maxPara
+{
+   background-color: #C6C6C6;
+}
+
+.btn-block
+{
+   color: black;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .well .page-header
+   {
+      margin-top: 0;
+   }
+   
+  .well
+  {
+    margin-top: 20px;
+  }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchinput
+   {
+      width: 200px;
+   }
+ 
+   /*.navbar-brand
+   {
+      padding-top: 60px;
+   }
+  */
+/*.navbar-responsive-collapse
+{
+   padding-top: 60px; 
+}*/
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+.carousel-caption
+{
+   font-size: 130%;
+}
+.carouselHeader
+{
+   font-family: 'Bowlby One SC', cursive;
+}
+.firstslidercaption
+{
+   color:#FAF307;
+}
+.secondslidercaption
+{
+   font-size: 130%;
+   
+color:#FAF307;
+
+}
+.thirdslidercaption
+{
+   font-size: 130%;
+   color:#FAF307;
+
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+/*  ---------------------------------------------
+
+Second Page Styles   
+
+----------------------------------------------- */
+.secondPageContainer
+{
+   margin-top: 100px;
+   text-align: justify;
+   background-color: grey;
+}
+/*.boxOfficeimg2
+{
+   margin-bottom: 40px;
+}*/
+.secondPageHeader2
+{
+   margin-top: 20px;
+}
+.boxOfficeList
+{
+   margin-top: 100px;
+}
+.boxOfficeWeekend
+{
+   margin-bottom: 20px;
+}
+#boxOfficeHeading
+{
+   margin-top: 80px;
+   text-align: center;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+#myCarousel .item
+{
+   margin-top: 50px;
+   height: 270px;
+} 
+	#slide1
+   {
+      background: url("../../img/carousel1_extrasmall.jpg") top center no-repeat;
+
+   }
+   #slide2
+   {
+      background: url("../../img/carousel2_extrasmall.jpg") top center no-repeat;
+      
+   }
+   #slide3
+   {
+      background: url("../../img/carousel3_extrasmall.jpg") top center no-repeat;
+      
+   }
+}
+@media (max-width: 783px)
+{
+   #myCarousel .item
+   {
+      margin-top: 50px;
+      height: 275px;
+   }
+   #slide1 
+   {
+      background: url("../../img/carousel1_small.jpg") top center no-repeat;
+   }
+   #slide2
+   {
+      background: url("../../img/carousel2_small.jpg") top center no-repeat;
+   }
+   #slide3
+   {
+      background: url("../../img/carousel3_small.jpg") top center no-repeat;
+   }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   #myCarousel .item
+   {
+      margin-top: 50px;   
+      height: 432px;
+
+   }
+   
+   #slide1
+   {
+      background: url("../../img/carousel1_medium.jpg") top center no-repeat;
+      
+   }
+    #slide2
+   {
+      background: url("../../img/carousel2_medium.jpg") top center no-repeat;
+      
+   }
+    #slide3
+   {
+      background: url("../../img/carousel3_medium.jpg") top center no-repeat;
+   
+   }
+
+	
+}
+
+/* Large desktop */
+@media (min-width: 768px) {
+#myCarousel .item {
+   height: 600px;
+}
+#slide1
+{
+background: url("../../img/carousel1_large.jpg") top center no-repeat;
+}
+
+#slide2
+{
+background: url("../../img/carousel2_large.jpg") top center no-repeat;
+}
+#slide3
+{
+background: url("../../img/carousel3_large.jpg") top center no-repeat;
+}
+}
+.lead
+{
+   text-align: justify;
+   color: black;
+   font-family: 'Short Stack', cursive;
+}
+
+.followingnews4
+{
+   text-align: justify;
+
+}
+.thumbnail
+{
+   margin: 0 20px 10px 0;
+}
+.thumbnail2
+{
+   margin: 0 20px 10px 0;
+}
+.thumbnail3
+{
+   margin: 0 20px 10px 0;
+}
+#tab1
+{
+   margin-top: 10px;
+}
+#tab2
+{
+   margin-top: 10px;
+}
+#tab3
+{
+   margin-top: 10px;
+}
+.list-group
+{
+   margin-top: 5px;
+}
+.borntoday
+{
+   margin-top: 50px;
+   text-align: center;
+   background-color: grey;
+}
+.bornHeader
+{
+   margin-bottom: 30px;
+   font-family: 'Luckiest Guy', cursive;
+}
+/*.bornTodayHeader
+{
+   font-family: 'Bungee Inline', cursive;
+}*/
+
+/*      footer styling            */
+
+footer
+{
+   background-color: black;
+   margin-top: 50px;
+}
+.fontColor
+{
+   color: white;
+}
+.copyright
+{
+   color: white;
+
+}
+.companyHeader
+{
+   color: #00d9ed;
+   margin-left: 30px;
+}
+.company
+{
+   color: white;
+}
+.companyList
+{
+   text-decoration: underline;
+   color: white;
+}
+.followUs
+{
+   font-size: 230%;
+   
+   color: #00d9ed;
+}
+.availableOnHeader
+{
+   color: #00d9ed;
+}
+.companyDetails
+{
+   color: white;
+}
+.callOutHeader
+{
+   font-family: 'Frijole', cursive;
+}

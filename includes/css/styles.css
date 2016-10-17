@@ -1,85 +1,60 @@
-/*
-
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
+/* ---   Layout ---- */
 body
 {
-   /*background: url("../../img/bodyimg.jpg");*/
+
    background-color:#DDE6DA;
+   padding-top: 50px;
 }
 
-
-
-#features
+.panel-title
 {
    text-align: center;
+}
 
-}
-#features img
-{
-   margin:0 0 20px;
-}
 .featuresHeader
 {
    text-align: center;
    font-family: 'Luckiest Guy', cursive;
-   /*color: red;*/
+
 }
+/*.featuresheading
+{
+   margin-top: 0%;
+}*/
 .maxPara
 {
    background-color: #C6C6C6;
+
 }
 
 .btn-block
 {
    color: black;
 }
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-   .well .page-header
-   {
-      margin-top: 0;
-   }
-   
-  .well
-  {
-    margin-top: 20px;
-  }
 
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-   #searchinput
-   {
-      width: 200px;
-   }
- 
-   /*.navbar-brand
-   {
-      padding-top: 60px;
-   }
-  */
-/*.navbar-responsive-collapse
+.well .page-header
 {
-   padding-top: 60px; 
-}*/
+   margin-top: 0;
+}
 
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
+.well
+{
+  margin-top: 20px;
+}
+
+
+/*   Navbar      */
+
+
+.navbar-brand{
+   padding: 0;
+}
+#searchinput
+{
+   width: 200px;
+}
+
+/* ----  Carousel ---- */
 
 .carousel-caption
 {
@@ -97,7 +72,7 @@ body
 {
    font-size: 130%;
    
-color:#FAF307;
+   color:#FAF307;
 
 }
 .thirdslidercaption
@@ -106,25 +81,15 @@ color:#FAF307;
    color:#FAF307;
 
 }
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
 
-/*  ---------------------------------------------
-
-Second Page Styles   
-
------------------------------------------------ */
+/*  ---- Second Page Styles */
 .secondPageContainer
 {
    margin-top: 100px;
    text-align: justify;
    background-color: grey;
 }
-/*.boxOfficeimg2
-{
-   margin-bottom: 40px;
-}*/
+
 .secondPageHeader2
 {
    margin-top: 20px;
@@ -142,30 +107,32 @@ Second Page Styles
    margin-top: 80px;
    text-align: center;
 }
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
+
+/* ------- Media Queries ----*/
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-#myCarousel .item
-{
-   margin-top: 50px;
-   height: 270px;
-} 
-	#slide1
+   #myCarousel .item
+   {
+      /*margin-top: 50px;*/
+      height: 270px;
+   } 
+   #slide1
    {
       background: url("../../img/carousel1_extrasmall.jpg") top center no-repeat;
+      background-size: 100% 100%;
 
    }
    #slide2
    {
       background: url("../../img/carousel2_extrasmall.jpg") top center no-repeat;
-      
+      background-size: 100% 100%;
+
    }
    #slide3
    {
       background: url("../../img/carousel3_extrasmall.jpg") top center no-repeat;
+      background-size: 100% 100%;
       
    }
 }
@@ -173,27 +140,33 @@ Second Page Styles
 {
    #myCarousel .item
    {
-      margin-top: 50px;
+      /*margin-top: 50px;*/
       height: 275px;
    }
    #slide1 
    {
       background: url("../../img/carousel1_small.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
    }
    #slide2
    {
       background: url("../../img/carousel2_small.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
    }
    #slide3
    {
       background: url("../../img/carousel3_small.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
    }
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
    #myCarousel .item
    {
-      margin-top: 50px;   
+      /*margin-top: 50px;   */
       height: 432px;
 
    }
@@ -201,41 +174,63 @@ Second Page Styles
    #slide1
    {
       background: url("../../img/carousel1_medium.jpg") top center no-repeat;
+      background-size: 100% 100%;
       
    }
-    #slide2
+   #slide2
    {
       background: url("../../img/carousel2_medium.jpg") top center no-repeat;
+      background-size: 100% 100%;
       
    }
-    #slide3
+   #slide3
    {
       background: url("../../img/carousel3_medium.jpg") top center no-repeat;
-   
+      background-size: 100% 100%;
+      
    }
 
-	
+   
 }
 
 /* Large desktop */
 @media (min-width: 768px) {
-#myCarousel .item {
-   height: 600px;
-}
-#slide1
-{
-background: url("../../img/carousel1_large.jpg") top center no-repeat;
+   #myCarousel .item {
+      /*margin-top: 5%;*/
+
+      height: 600px;
+   }
+   .feature
+   {
+      margin-bottom: 500px;
+   }
+   .panel2{
+      height: 300px;
+   }
+
+   #slide1
+   {
+      background: url("../../img/carousel1_large.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+
+   #slide2
+   {
+      background: url("../../img/carousel2_large.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+   #slide3
+   {
+      background: url("../../img/carousel3_large.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+
 }
 
-#slide2
-{
-background: url("../../img/carousel2_large.jpg") top center no-repeat;
-}
-#slide3
-{
-background: url("../../img/carousel3_large.jpg") top center no-repeat;
-}
-}
+
 .lead
 {
    text-align: justify;
@@ -287,10 +282,7 @@ background: url("../../img/carousel3_large.jpg") top center no-repeat;
    margin-bottom: 30px;
    font-family: 'Luckiest Guy', cursive;
 }
-/*.bornTodayHeader
-{
-   font-family: 'Bungee Inline', cursive;
-}*/
+
 
 /*      footer styling            */
 
@@ -339,4 +331,23 @@ footer
 .callOutHeader
 {
    font-family: 'Frijole', cursive;
+}
+.secondPageBottom
+{
+   text-align: center;
+   color: black;
+}
+.featurePara
+{
+   text-align: justify;
+}
+
+.secondFeaturesHeader
+{
+   text-align: center;
+   margin-top: 50px;
+}
+.featurePara2
+{
+   text-align: center;
 }

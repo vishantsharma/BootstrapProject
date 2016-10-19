@@ -1,4 +1,4 @@
-/* ---   Layout ---- */
+/* ---   Global Styles  ---- */
 body
 {
 
@@ -6,31 +6,31 @@ body
    padding-top: 50px;
 }
 
-.panel-title
-{
-   text-align: center;
-}
+      /* --- Feature Styles  ----*/
 
 .featuresHeader
 {
    text-align: center;
    font-family: 'Luckiest Guy', cursive;
-
 }
-/*.featuresheading
-{
-   margin-top: 0%;
-}*/
 .maxPara
 {
    background-color: #C6C6C6;
-
 }
-
+.panel-title
+{
+   text-align: center;
+}
 .btn-block
 {
    color: black;
 }
+.featurePara
+{
+   text-align: justify;
+}
+
+ /* --- Big Callout ---*/
 
 .well .page-header
 {
@@ -40,6 +40,17 @@ body
 .well
 {
   margin-top: 20px;
+}
+
+.lead
+{
+   text-align: justify;
+   color: black;
+   font-family: 'Short Stack', cursive;
+}
+.callOutHeader
+{
+   font-family: 'Frijole', cursive;
 }
 
 
@@ -107,137 +118,18 @@ body
    margin-top: 80px;
    text-align: center;
 }
-
-/* ------- Media Queries ----*/
-
-/* Portrait & landscape phone */
-@media (max-width: 480px) {
-   #myCarousel .item
-   {
-      /*margin-top: 50px;*/
-      height: 270px;
-   } 
-   #slide1
-   {
-      background: url("../../img/carousel1_extrasmall.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-   #slide2
-   {
-      background: url("../../img/carousel2_extrasmall.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-   #slide3
-   {
-      background: url("../../img/carousel3_extrasmall.jpg") top center no-repeat;
-      background-size: 100% 100%;
-      
-   }
-}
-@media (max-width: 783px)
+.secondPageBottom
 {
-   #myCarousel .item
-   {
-      /*margin-top: 50px;*/
-      height: 275px;
-   }
-   #slide1 
-   {
-      background: url("../../img/carousel1_small.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-   #slide2
-   {
-      background: url("../../img/carousel2_small.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-   #slide3
-   {
-      background: url("../../img/carousel3_small.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-}
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-   #myCarousel .item
-   {
-      /*margin-top: 50px;   */
-      height: 432px;
-
-   }
-   
-   #slide1
-   {
-      background: url("../../img/carousel1_medium.jpg") top center no-repeat;
-      background-size: 100% 100%;
-      
-   }
-   #slide2
-   {
-      background: url("../../img/carousel2_medium.jpg") top center no-repeat;
-      background-size: 100% 100%;
-      
-   }
-   #slide3
-   {
-      background: url("../../img/carousel3_medium.jpg") top center no-repeat;
-      background-size: 100% 100%;
-      
-   }
-
-   
-}
-
-/* Large desktop */
-@media (min-width: 768px) {
-   #myCarousel .item {
-      /*margin-top: 5%;*/
-
-      height: 600px;
-   }
-   .feature
-   {
-      margin-bottom: 500px;
-   }
-   .panel2{
-      height: 300px;
-   }
-
-   #slide1
-   {
-      background: url("../../img/carousel1_large.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-
-   #slide2
-   {
-      background: url("../../img/carousel2_large.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-   #slide3
-   {
-      background: url("../../img/carousel3_large.jpg") top center no-repeat;
-      background-size: 100% 100%;
-
-   }
-
-}
-
-
-.lead
-{
-   text-align: justify;
+   text-align: center;
    color: black;
-   font-family: 'Short Stack', cursive;
+}
+.secondFeaturesHeader
+{
+   text-align: center;
+   margin-top: 50px;
 }
 
+  /*   Tab Pane*      */
 .followingnews4
 {
    text-align: justify;
@@ -328,26 +220,137 @@ footer
 {
    color: white;
 }
-.callOutHeader
-{
-   font-family: 'Frijole', cursive;
-}
-.secondPageBottom
-{
-   text-align: center;
-   color: black;
-}
-.featurePara
-{
-   text-align: justify;
-}
-
-.secondFeaturesHeader
-{
-   text-align: center;
-   margin-top: 50px;
-}
 .featurePara2
 {
    text-align: center;
+}
+
+
+
+/* ------- Media Queries ----*/
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {
+   #slide1 h2,h3{
+font-size: 90%;   
+   }
+   #slide2 h2,h3{
+font-size: 90%;   
+   }
+   #slide3 h2,h3{
+font-size: 90%;   
+   }
+
+   #myCarousel .item
+   {
+      height: 270px;
+
+   } 
+   #slide1
+   {
+      background: url("../../img/carousel1_extrasmall.jpg") top center no-repeat;
+      background-size: 100% 100%;
+      
+
+   }
+   #slide2
+   {
+      background: url("../../img/carousel2_extrasmall.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+   #slide3
+   {
+      background: url("../../img/carousel3_extrasmall.jpg") top center no-repeat;
+      background-size: 100% 100%;
+      
+   }
+}
+
+@media (min-width: 481px)
+{
+   #myCarousel .item
+   {
+      height: 275px;
+   }
+      #slide1 
+   {
+      background: url("../../img/carousel1_small.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+   #slide2
+   {
+      background: url("../../img/carousel2_small.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+   #slide3
+   {
+      background: url("../../img/carousel3_small.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+
+}
+@media (min-width: 768px)
+{
+   #myCarousel .item
+   {
+      height: 275px;
+   }
+   #slide1 
+   {
+      background: url("../../img/carousel1_medium.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+   #slide2
+   {
+      background: url("../../img/carousel2_medium.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+   #slide3
+   {
+      background: url("../../img/carousel3_medium.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+}
+
+/* Large desktop */
+@media (min-width: 784px) {
+   #myCarousel .item {
+      height: 600px;
+   }
+   .feature
+   {
+      margin-bottom: 500px;
+   }
+   .panel2{
+      height: 300px;
+   }
+
+   #slide1
+   {
+      background: url("../../img/carousel1_large.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+
+   #slide2
+   {
+      background: url("../../img/carousel2_large.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+   #slide3
+   {
+      background: url("../../img/carousel3_large.jpg") top center no-repeat;
+      background-size: 100% 100%;
+
+   }
+
 }
